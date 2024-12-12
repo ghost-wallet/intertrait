@@ -11,7 +11,7 @@ jobs:
     name: Build and run tests
     strategy:
       matrix:
-        rust-version: [stable, 1.40.0]
+        rust-version: [stable]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
